@@ -1,12 +1,17 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <h1 class="bg-gray-300">
-    Hello world!
-  </h1>
+  <div>
+    <router-view />
+  </div>
 </template>
+
+<script>
+  export default {
+    name: 'App',
+    components: {
+
+    }
+  }
+</script>
 
 <style scoped>
 
