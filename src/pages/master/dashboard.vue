@@ -98,8 +98,7 @@
               </div>
               Download
             </router-link>
-            <div>
-                <router-link
+            <router-link
               to="/settings"
               class="inline-flex text-white relative items-center py-[10px] px-[10px] mx-5 w-fill text-sm font-medium rounded-md border-gray-200 hover:bg-gray-200 hover:text-blue-900"
             >
@@ -126,7 +125,6 @@
               </div>
               Settings
             </router-link>
-            </div>
           </div>
         </div>
       </div>
